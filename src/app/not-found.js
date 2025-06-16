@@ -4,10 +4,10 @@ export default function NotFound() {
   return (
     <main style={{ textAlign: "center" }}>
       <h1>404</h1>
-      <p>Lo sentimos, no encontramos esa página.qwe</p>
-      <a href="/" style={{ color: "#0070f3" }}>
+      <p>Lo sentimos, no encontramos esa página.</p>
+      <Link href="/" style={{ color: "#0070f3" }}>
         Volver al inicio
-      </a>
+      </Link>
     </main>
   );
 }

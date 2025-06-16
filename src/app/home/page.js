@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomePage() {
   return (
     <main>
@@ -15,10 +17,12 @@ export default function HomePage() {
       </ul>
 
       <h2>Imagen de ejemplo</h2>
-      <img
+      <Image
         src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?auto=format&fit=crop&w=800&q=60"
         alt="Ejemplo Next.js"
-        style={{ width: "100%", borderRadius: 6 }}
+        width={800}
+        height={500}
+        style={{ width: "100%", height: "auto", borderRadius: 6 }}
       />
     </main>
   );
